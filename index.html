@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Primary Meta Tags -->
+  <title>Jefferson Monteiro | Senior Java Backend Developer & Solutions Architect</title>
+  <meta name="title" content="Jefferson Monteiro | Senior Java Backend Developer & Solutions Architect">
+  <meta name="description" content="Portfolio of Jefferson Monteiro, Senior Java Backend Developer & Solutions Architect based in Adelaide, Australia. 15+ years of international enterprise experience across Australia, Europe, and Brazil. Specializing in Java, Spring Boot, Microservices, AWS, Docker, and FinTech systems.">
+  <meta name="keywords" content="Jefferson Monteiro, Java Developer, Senior Backend Engineer, Solutions Architect, Spring Boot, Microservices, AWS Certified, Adelaide, Australia, FinTech, Docker, Kubernetes, CI/CD">
+  <meta name="author" content="Jefferson Monteiro">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jeffersontadeumonteiro.github.io/">
+  <meta property="og:title" content="Jefferson Monteiro | Senior Java Backend Developer & Solutions Architect">
+  <meta property="og:description" content="15+ years international engineering experience across Australia, Europe, and Brazil. Specializing in Java, Spring Boot, Microservices, AWS, and mission-critical FinTech systems.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- Google Fonts Preconnect & Inter / JetBrains Mono fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =========================================================================
+       HEADER / NAVIGATION BAR
+       Sticky responsive navigation with glassmorphism blur and active scroll-spy
+       ========================================================================= -->
+  <header class="header" id="topNav">
+    <div class="container nav-container">
+      <!-- Brand Logo / Monogram -->
+      <a href="#hero" class="brand" aria-label="Jefferson Monteiro Home">
+        <span class="brand-badge">&lt;JM/&gt;</span>
+        <span class="brand-text">Jefferson Monteiro</span>
+        <span class="brand-title-badge">Senior Java</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="primaryNavigation" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education & Certs</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Desktop Action CTA & Mobile Hamburger -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-outline btn-sm">Get in Touch</a>
+      </div>
+
+      <button class="hamburger" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primaryNavigation">
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================================
+         SECTION 1: HERO SECTION
+         Professional title, international pitch, quick badges, and interactive terminal
+         ========================================================================= -->
+    <section class="section hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Hero Narrative -->
+          <div class="hero-content">
+            <div class="hero-location-badge">
+              <span class="location-dot"></span>
+              <span>Adelaide, South Australia &bull; Open to Senior &amp; Architecture Roles</span>
+            </div>
+
+            <h1 class="hero-title">
+              Senior Java Backend Developer
+              <span class="title-accent">&amp; Solutions Architect</span>
+            </h1>
+
+            <p class="hero-subtitle">
+              With <strong>over 15 years of international engineering experience</strong> across Australia, Europe, and Latin America, I specialize in designing high-throughput <strong>Spring Boot microservices</strong>, resilient <strong>event-driven architectures</strong>, and mission-critical <strong>Core Banking &amp; FinTech</strong> solutions.
+            </p>
+
+            <!-- Quick Highlight Pills -->
+            <div class="hero-badges">
+              <span class="hero-badge-pill">☕ Java &amp; Spring Boot Specialist</span>
+              <span class="hero-badge-pill">☁️ AWS Solutions Architect Certified</span>
+              <span class="hero-badge-pill">🏛️ Core Banking &amp; Payments</span>
+              <span class="hero-badge-pill">🐳 Docker &amp; CI/CD Automation</span>
+              <span class="hero-badge-pill">📱 Native Android &amp; Mobile</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="hero-cta">
+              <a href="#projects" class="btn btn-primary">
+                <span>View Featured Projects</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#experience" class="btn btn-secondary">
+                <span>Professional Experience</span>
+              </a>
+              <a href="#contact" class="btn btn-outline">
+                <span>Contact Me</span>
+              </a>
+            </div>
+
+            <!-- Social Links Quick Access -->
+            <div class="hero-socials">
+              <a href="https://www.linkedin.com/in/jefferson-monteiro-58503b61/" target="_blank" rel="noopener noreferrer" class="social-link" title="LinkedIn Profile" aria-label="Jefferson Monteiro LinkedIn Profile">
+                <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.86 0 1.55-.7 1.55-1.55a1.56 1.56 0 0 0-1.55-1.56 1.56 1.56 0 0 0-1.56 1.56c0 .85.7 1.55 1.56 1.55m1.39 9.74v-8.37H5.07v8.37h2.78z"/></svg>
+              </a>
+              <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile" aria-label="Jefferson Monteiro GitHub Profile">
+                <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+              </a>
+              <a href="mailto:jeffermonteiro@gmail.com" class="social-link" title="Email Direct" aria-label="Email Jefferson Monteiro">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.australianhomebudget.app" target="_blank" rel="noopener noreferrer" class="social-link" title="Google Play Store Developer Apps" aria-label="Google Play Store Apps">
+                <svg viewBox="0 0 24 24"><path d="M3.6 1.7C3.2 2.1 3 2.7 3 3.5v17c0 .8.2 1.4.6 1.8l.1.1 9.6-9.6v-.2L3.7 1.6l-.1.1zM17.1 16.5l-3.8-3.8v-.2l3.8-3.8.1.1 4.5 2.6c1.3.7 1.3 1.9 0 2.6l-4.6 2.5zm-3.8-3.9L3.7 22.2c.4.4 1.1.5 1.9.1l11.4-6.5-3.7-3.2zm0-.8l3.7-3.2L5.6 2.1c-.8-.4-1.5-.3-1.9.1l9.6 9.6z"/></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Hero Visual: Developer Profile Terminal -->
+          <div class="hero-visual">
+            <div class="terminal-card">
+              <div class="terminal-header">
+                <div class="terminal-dots">
+                  <span class="terminal-dot dot-red"></span>
+                  <span class="terminal-dot dot-yellow"></span>
+                  <span class="terminal-dot dot-green"></span>
+                </div>
+                <span class="terminal-title">jefferson-monteiro.json</span>
+                <span class="terminal-title" id="terminalTimestamp">Adelaide ACST</span>
+              </div>
+              <div class="terminal-body">
+                <div><span class="code-comment">// Enterprise Java &amp; Cloud Profile</span></div>
+                <div>{</div>
+                <div>&nbsp;&nbsp;<span class="code-key">"engineer"</span>: <span class="code-val">"Jefferson Monteiro"</span>,</div>
+                <div>&nbsp;&nbsp;<span class="code-key">"location"</span>: <span class="code-val">"Adelaide, South Australia 🇦🇺"</span>,</div>
+                <div>&nbsp;&nbsp;<span class="code-key">"experienceYears"</span>: <span class="code-num">15</span>,</div>
+                <div>&nbsp;&nbsp;<span class="code-key">"primarySpecialization"</span>: <span class="code-val">"Enterprise Java &amp; Microservices"</span>,</div>
+                <div>&nbsp;&nbsp;<span class="code-key">"cloudCertifications"</span>: [</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-val">"AWS Solutions Architect - Associate"</span>,</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-val">"Microsoft Certified: Azure Fundamentals"</span></div>
+                <div>&nbsp;&nbsp;],</div>
+                <div>&nbsp;&nbsp;<span class="code-key">"domains"</span>: [</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-val">"Core Banking &amp; Lending Platforms (LOS)"</span>,</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-val">"Cyber Security &amp; Fraud Prevention (Mastercard)"</span>,</div>
+                <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-val">"Automotive Assembly Line Systems (BMW)"</span></div>
+                <div>&nbsp;&nbsp;],</div>
+                <div>&nbsp;&nbsp;<span class="code-key">"status"</span>: <span class="code-val">"Senior Backend Developer in Australia"</span></div>
+                <div>}</div>
+
+                <div class="terminal-highlight-box">
+                  <strong>&gt; Current focus:</strong> Scalable Microservices, API Security &amp; Enterprise Automation in Australia.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 2: ABOUT ME
+         International software engineering journey across Australia, Europe, and Brazil
+         ========================================================================= -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">International Engineering, <span class="gradient-text">Proven Reliability</span></h2>
+          <p class="section-description">
+            Combining over 15 years of deep Java expertise with an international perspective gained from leading enterprise software initiatives across three continents.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              I am a <strong>Senior Java Software Engineer</strong> living in Adelaide, Australia, with a proven track record delivering robust, scalable IT solutions for global enterprises including <strong>Credit Union SA</strong>, <strong>Critical TechWorks (BMW Group)</strong>, <strong>Inetum</strong>, <strong>Mastercard</strong>, and <strong>HSBC Global Technology</strong>.
+            </p>
+            <p>
+              My journey spans more than a decade and a half of engineering evolutions: from early enterprise monoliths and Oracle PL/SQL stored procedures to modern cloud-native <strong>Spring Boot microservices</strong>, Kafka-driven asynchronous event streams, and automated CI/CD pipelines with Docker.
+            </p>
+            <p>
+              I hold a Bachelor’s degree in <strong>Systems Analysis from PUC-PR</strong> and a Post-Graduate Specialization in <strong>Java Technology and Mobile Development from UTFPR</strong> (both WES-verified). Proactive and agile-minded, I excel at evaluating critical REST/SOAP APIs, solving complex backend challenges, and spearheading regression testing automation.
+            </p>
+
+            <!-- Three International Pillars -->
+            <div class="international-pillars">
+              <div class="pillar-card">
+                <div class="pillar-icon">🇦🇺</div>
+                <div class="pillar-title">Australia</div>
+                <div class="pillar-desc">
+                  <strong>Credit Union SA</strong>: Core Banking, Loan Origination (LOS), REST/SOAP API evaluation &amp; regression automation.
+                </div>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-icon">🇵🇹</div>
+                <div class="pillar-title">Europe (Portugal)</div>
+                <div class="pillar-desc">
+                  <strong>BMW Group</strong> MAPP assembly line planning; <strong>Inetum</strong> Cleva Life insurance legacy transformation.
+                </div>
+              </div>
+              <div class="pillar-card">
+                <div class="pillar-icon">🇧🇷</div>
+                <div class="pillar-title">Brazil</div>
+                <div class="pillar-desc">
+                  <strong>Mastercard</strong> (C&amp;I Anti-fraud, ESS Identity), <strong>Bradesco</strong> Native Android, and <strong>HSBC</strong> (8 yrs).
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Key Metrics Counter Cards -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <div class="stat-number">15+</div>
+              <div class="stat-label">Years Enterprise Experience</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">3</div>
+              <div class="stat-label">Continents Worked Across (AU, EU, SA)</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">2</div>
+              <div class="stat-label">Global Cloud Certifications (AWS &amp; Azure)</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">10+</div>
+              <div class="stat-label">Tier-1 Clients &amp; Institutions</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 3: TECHNICAL SKILLS
+         Categorized, filterable skill matrix directly based on CV competencies
+         ========================================================================= -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Skills</span>
+          <h2 class="section-title">Battle-Tested <span class="gradient-text">Core Technologies</span></h2>
+          <p class="section-description">
+            A comprehensive overview of programming languages, frameworks, cloud infrastructure, and databases honed across 15+ years of production software development.
+          </p>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="skills-filter" role="tablist" aria-label="Skills Category Filters">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="backend">Backend &amp; Java</button>
+          <button class="filter-btn" data-filter="cloud">Cloud &amp; DevOps</button>
+          <button class="filter-btn" data-filter="database">Databases &amp; Messaging</button>
+          <button class="filter-btn" data-filter="quality">Testing &amp; Automation</button>
+          <button class="filter-btn" data-filter="frontend">Mobile &amp; Web</button>
+        </div>
+
+        <!-- Skills Grid Cards -->
+        <div class="skills-grid">
+          <!-- Category 1: Backend & Java -->
+          <div class="skill-category-card" data-category="backend">
+            <div class="category-header">
+              <div class="category-icon">☕</div>
+              <h3 class="category-title">Backend &amp; Core Architecture</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill featured">Java 8 / 11 / 17 / 20+</span>
+              <span class="skill-pill featured">Spring Boot</span>
+              <span class="skill-pill featured">Microservices Architecture</span>
+              <span class="skill-pill featured">Spring Batch</span>
+              <span class="skill-pill">Spring Integration</span>
+              <span class="skill-pill">RESTful API Design</span>
+              <span class="skill-pill">SOAP Web Services</span>
+              <span class="skill-pill">GraphQL</span>
+              <span class="skill-pill">Hibernate / JPA</span>
+              <span class="skill-pill">QueryDSL</span>
+              <span class="skill-pill">Java CompletableFuture</span>
+              <span class="skill-pill">Java EE / Servlets / JSP</span>
+              <span class="skill-pill">EJB &amp; JMS</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Cloud & DevOps -->
+          <div class="skill-category-card" data-category="cloud">
+            <div class="category-header">
+              <div class="category-icon">☁️</div>
+              <h3 class="category-title">Cloud, Containers &amp; DevOps</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill featured">AWS (Solutions Architect Assoc.)</span>
+              <span class="skill-pill featured">Docker</span>
+              <span class="skill-pill featured">CI/CD Pipelines</span>
+              <span class="skill-pill">AWS S3, EC2, API Gateway</span>
+              <span class="skill-pill">AWS SQS &amp; Lambda</span>
+              <span class="skill-pill">Microsoft Azure (AZ-900)</span>
+              <span class="skill-pill">Pivotal Cloud Foundry (PCF)</span>
+              <span class="skill-pill">Jenkins &amp; Bamboo</span>
+              <span class="skill-pill">Git &amp; BitBucket / GitHub</span>
+              <span class="skill-pill">Chef Automation</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Databases & Messaging -->
+          <div class="skill-category-card" data-category="database">
+            <div class="category-header">
+              <div class="category-icon">🗄️</div>
+              <h3 class="category-title">Databases &amp; Event Streaming</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill featured">Oracle Database (8i, 9i, 11g)</span>
+              <span class="skill-pill featured">Oracle PL/SQL</span>
+              <span class="skill-pill featured">Apache Kafka</span>
+              <span class="skill-pill">PostgreSQL</span>
+              <span class="skill-pill">Microsoft SQL Server</span>
+              <span class="skill-pill">MySQL</span>
+              <span class="skill-pill">H2 Embedded DB</span>
+              <span class="skill-pill">IBM MQ</span>
+              <span class="skill-pill">JMS Messaging</span>
+              <span class="skill-pill">Data Modeling</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Testing & Automation -->
+          <div class="skill-category-card" data-category="quality">
+            <div class="category-header">
+              <div class="category-icon">🧪</div>
+              <h3 class="category-title">Testing &amp; QA Automation</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill featured">JUnit 4 &amp; JUnit 5</span>
+              <span class="skill-pill featured">Mockito &amp; PowerMock</span>
+              <span class="skill-pill featured">Postman (API Test Automation)</span>
+              <span class="skill-pill">Python for Test Automation</span>
+              <span class="skill-pill">Selenium WebDriver</span>
+              <span class="skill-pill">Cucumber (BDD)</span>
+              <span class="skill-pill">Regression Automation Frameworks</span>
+              <span class="skill-pill">Quality Center</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Mobile & Frontend -->
+          <div class="skill-category-card" data-category="frontend">
+            <div class="category-header">
+              <div class="category-icon">📱</div>
+              <h3 class="category-title">Mobile &amp; Frontend Technologies</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill featured">Android Native (Kotlin &amp; Java)</span>
+              <span class="skill-pill featured">JavaFX (MVVM Pattern)</span>
+              <span class="skill-pill">JavaScript &amp; TypeScript</span>
+              <span class="skill-pill">HTML5 &amp; CSS3</span>
+              <span class="skill-pill">Thymeleaf &amp; Bootstrap</span>
+              <span class="skill-pill">Angular / AngularJS</span>
+              <span class="skill-pill">SAP Hybris e-Commerce</span>
+              <span class="skill-pill">JasperReports &amp; Crystal Reports</span>
+            </div>
+          </div>
+
+          <!-- Category 6: Industry Domains & Practices -->
+          <div class="skill-category-card" data-category="backend">
+            <div class="category-header">
+              <div class="category-icon">🏛️</div>
+              <h3 class="category-title">Domain Expertise &amp; Methodologies</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-pill featured">Core Banking &amp; Internet Banking</span>
+              <span class="skill-pill featured">Loan Origination Systems (LOS)</span>
+              <span class="skill-pill featured">Cyber Security &amp; Anti-Fraud</span>
+              <span class="skill-pill">Digital Identity Verification</span>
+              <span class="skill-pill">Industrial Automotive Assembly</span>
+              <span class="skill-pill">Life &amp; Non-Life Insurance</span>
+              <span class="skill-pill">Agile / Scrum Methodologies</span>
+              <span class="skill-pill">CMMI Dev Standards</span>
+              <span class="skill-pill">Technical Team Leadership</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 4: FEATURED PROJECTS
+         Real commercial enterprise systems + Google Play Store Android apps
+         ========================================================================= -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Featured Projects</span>
+          <h2 class="section-title">Engineering <span class="gradient-text">At Enterprise Scale</span></h2>
+          <p class="section-description">
+            A curated showcase of mission-critical systems and mobile applications I have engineered, ranging from published Google Play store apps to global automotive and banking infrastructures.
+          </p>
+        </div>
+
+        <!-- Project Filter Buttons -->
+        <div class="projects-filter" role="tablist" aria-label="Project Filters">
+          <button class="project-filter-btn active" data-project-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-project-filter="mobile">Mobile Apps (Google Play)</button>
+          <button class="project-filter-btn" data-project-filter="banking">FinTech &amp; Banking</button>
+          <button class="project-filter-btn" data-project-filter="automotive">Automotive &amp; Industry</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Australian Home Budget -->
+          <article class="project-card" data-project-cat="mobile">
+            <div class="project-header-bar">
+              <span class="project-tag">Published App</span>
+              <span class="project-org">Independent / Australia</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Australian Home Budget</h3>
+              <p class="project-summary">
+                A personal finance and household budget management application tailored specifically for the Australian financial environment, helping individuals and families track expenditures, categorize income streams, and analyze savings habits.
+              </p>
+              <div class="project-highlights">
+                <div class="project-highlight-item">Engineered with clean architectural principles on Android with offline-first local data persistence.</div>
+                <div class="project-highlight-item">Interactive budgeting charts, intuitive categorization, and financial summary reporting.</div>
+                <div class="project-highlight-item">Live in production on the Google Play Store with active Australian users.</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Android</span>
+                <span class="tech-tag">Kotlin</span>
+                <span class="tech-tag">Material Design</span>
+                <span class="tech-tag">Room DB</span>
+                <span class="tech-tag">Clean Architecture</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.australianhomebudget.app" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 1.7C3.2 2.1 3 2.7 3 3.5v17c0 .8.2 1.4.6 1.8l.1.1 9.6-9.6v-.2L3.7 1.6l-.1.1zM17.1 16.5l-3.8-3.8v-.2l3.8-3.8.1.1 4.5 2.6c1.3.7 1.3 1.9 0 2.6l-4.6 2.5zm-3.8-3.9L3.7 22.2c.4.4 1.1.5 1.9.1l11.4-6.5-3.7-3.2zm0-.8l3.7-3.2L5.6 2.1c-.8-.4-1.5-.3-1.9.1l9.6 9.6z"/></svg>
+                  <span>Google Play Store</span>
+                </a>
+                <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Golden Connect AU -->
+          <article class="project-card" data-project-cat="mobile">
+            <div class="project-header-bar">
+              <span class="project-tag">Published App</span>
+              <span class="project-org">Independent / Australia</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Golden Connect AU</h3>
+              <p class="project-summary">
+                A localized Australian community connection and services app facilitating communication and service discovery for businesses and residents across Australia.
+              </p>
+              <div class="project-highlights">
+                <div class="project-highlight-item">Integrated RESTful backend microservices with real-time mobile API data synchronization.</div>
+                <div class="project-highlight-item">Optimized for low-bandwidth mobile performance with reactive state management and image caching.</div>
+                <div class="project-highlight-item">Published and maintained on the Google Play Store for the Australian market.</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Android</span>
+                <span class="tech-tag">Java / Kotlin</span>
+                <span class="tech-tag">REST APIs</span>
+                <span class="tech-tag">Cloud Backend</span>
+                <span class="tech-tag">JSON</span>
+              </div>
+              <div class="project-actions">
+                <a href="https://play.google.com/store/apps/details?id=com.goldenconnect.au" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M3.6 1.7C3.2 2.1 3 2.7 3 3.5v17c0 .8.2 1.4.6 1.8l.1.1 9.6-9.6v-.2L3.7 1.6l-.1.1zM17.1 16.5l-3.8-3.8v-.2l3.8-3.8.1.1 4.5 2.6c1.3.7 1.3 1.9 0 2.6l-4.6 2.5zm-3.8-3.9L3.7 22.2c.4.4 1.1.5 1.9.1l11.4-6.5-3.7-3.2zm0-.8l3.7-3.2L5.6 2.1c-.8-.4-1.5-.3-1.9.1l9.6 9.6z"/></svg>
+                  <span>Google Play Store</span>
+                </a>
+                <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: BMW Assembly Line Planning (MAPP) -->
+          <article class="project-card" data-project-cat="automotive">
+            <div class="project-header-bar">
+              <span class="project-tag">Enterprise System</span>
+              <span class="project-org">Critical TechWorks &bull; BMW Group</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">BMW Production Line Planning (MAPP)</h3>
+              <p class="project-summary">
+                MAPP (Multiple Assembly Planning &amp; Process System) is the core operational software responsible for orchestrating BMW’s physical automotive car production and vehicle assembly lines across European plants.
+              </p>
+              <div class="project-highlights">
+                <div class="project-highlight-item">Developed and maintained mission-critical Spring Boot REST microservices powering line execution.</div>
+                <div class="project-highlight-item">Engineered high-performance desktop operator interfaces using JavaFX with MVVM component patterns.</div>
+                <div class="project-highlight-item">Integrated IBM MQ messaging pipelines, Oracle 11g database persistence, and automated Jenkins CI/CD.</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java 11</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">JavaFX (MVVM)</span>
+                <span class="tech-tag">Oracle 11g</span>
+                <span class="tech-tag">IBM MQ</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Jenkins</span>
+              </div>
+              <div class="project-actions">
+                <a href="#experience" class="project-link-btn">
+                  <span>Role Details</span>
+                </a>
+                <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: Mastercard Cyber Security & Intelligence (C&I) -->
+          <article class="project-card" data-project-cat="banking">
+            <div class="project-header-bar">
+              <span class="project-tag">FinTech &bull; Security</span>
+              <span class="project-org">Wipro &bull; Mastercard</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Mastercard Anti-Fraud &amp; Intelligence</h3>
+              <p class="project-summary">
+                High-scale cloud and event-driven intelligence platform built to monitor, detect, and prevent fraudulent financial transactions across global Mastercard processing networks.
+              </p>
+              <div class="project-highlights">
+                <div class="project-highlight-item">Architected batch processing and real-time transaction streaming using Spring Batch and Apache Kafka.</div>
+                <div class="project-highlight-item">Deployed microservices to Pivotal Cloud Foundry (PCF) with Chef configuration automation.</div>
+                <div class="project-highlight-item">Ensured high availability, stringent PCI-DSS compliance, and millisecond-latency transaction analysis.</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java Core &amp; EE</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Spring Batch</span>
+                <span class="tech-tag">Apache Kafka</span>
+                <span class="tech-tag">Pivotal Cloud Foundry</span>
+                <span class="tech-tag">Chef</span>
+              </div>
+              <div class="project-actions">
+                <a href="#experience" class="project-link-btn">
+                  <span>Role Details</span>
+                </a>
+                <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: Credit Union SA API Integration & Automation -->
+          <article class="project-card" data-project-cat="banking">
+            <div class="project-header-bar">
+              <span class="project-tag">Banking &bull; Australia</span>
+              <span class="project-org">Credit Union SA (Adelaide)</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Core Banking API &amp; Test Automation Suite</h3>
+              <p class="project-summary">
+                Central integration hub and automated regression verification platform connecting Credit Union SA's Core Banking engines, Loan Origination Systems (LOS), and Internet Banking systems with third-party Australian financial vendors.
+              </p>
+              <div class="project-highlights">
+                <div class="project-highlight-item">Conducted rigorous API security and architectural compliance evaluations for REST and SOAP services.</div>
+                <div class="project-highlight-item">Spearheaded automated testing frameworks utilizing Python, Selenium, Postman, and Docker in CI/CD.</div>
+                <div class="project-highlight-item">Significantly accelerated regression test cycle speeds while eliminating human errors in release cycles.</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Python Automation</span>
+                <span class="tech-tag">Selenium</span>
+                <span class="tech-tag">Postman</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">Cucumber</span>
+              </div>
+              <div class="project-actions">
+                <a href="#experience" class="project-link-btn">
+                  <span>Role Details</span>
+                </a>
+                <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Mastercard Digital Identity (ESS) -->
+          <article class="project-card" data-project-cat="banking">
+            <div class="project-header-bar">
+              <span class="project-tag">Enterprise Security</span>
+              <span class="project-org">Wipro &bull; Mastercard</span>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Mastercard Digital Identity Platform</h3>
+              <p class="project-summary">
+                Enterprise Service Solutions (ESS) platform unifying multi-product digital identity verification into a secure, cohesive user experience for international cardholders and banking institutions.
+              </p>
+              <div class="project-highlights">
+                <div class="project-highlight-item">Engineered resilient Java Spring Boot REST microservices interfacing with distributed security stores.</div>
+                <div class="project-highlight-item">Enabled unified customer identification workflows with end-to-end cryptographic integrity.</div>
+                <div class="project-highlight-item">Contributed to cloud deployments on Azure and Pivotal Cloud Foundry.</div>
+              </div>
+              <div class="project-tech-stack">
+                <span class="tech-tag">Java EE</span>
+                <span class="tech-tag">Spring Boot</span>
+                <span class="tech-tag">Microservices</span>
+                <span class="tech-tag">Azure</span>
+                <span class="tech-tag">RESTful APIs</span>
+                <span class="tech-tag">OAuth / Security</span>
+              </div>
+              <div class="project-actions">
+                <a href="#experience" class="project-link-btn">
+                  <span>Role Details</span>
+                </a>
+                <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 5: PROFESSIONAL EXPERIENCE
+         Chronological career timeline detailing 15+ years of verified corporate roles
+         ========================================================================= -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career History</span>
+          <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+          <p class="section-description">
+            A chronological timeline of senior software engineering, architecture, and technical consulting positions across Australia, Portugal, and Brazil.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Role 1: Credit Union SA -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Backend Developer</h3>
+                  <div class="timeline-company">
+                    <span>Credit Union SA</span>
+                    <span class="timeline-location">&bull; Adelaide, SA, Australia 🇦🇺</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">August 2024 &ndash; January 2026</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Responsible for backend engineering, API governance, and automation across core banking, lending platforms (Loan Origination Systems - LOS), and internet banking infrastructure.
+                </p>
+                <ul class="timeline-responsibilities">
+                  <li><strong>API Evaluation &amp; Integration:</strong> Conducted comprehensive evaluations and architecture reviews of REST and SOAP APIs, ensuring strict compliance with financial standards and security protocols while integrating with core banking and third-party vendors.</li>
+                  <li><strong>Automation Implementation:</strong> Led engineering initiatives to automate regression testing and operational workflows using Postman, Docker, and CI/CD pipelines, significantly speeding up release validation cycles.</li>
+                  <li><strong>Full Lifecycle Engineering:</strong> Built web application tools with Thymeleaf and Bootstrap to improve the QA regression pipeline, reducing manual overhead and increasing defect detection speed.</li>
+                  <li><strong>Stakeholder &amp; Vendor Collaboration:</strong> Analyzed system requirements with executive stakeholders and external FinTech vendors to guide integration architecture.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tech-tag">Java Core</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">REST &amp; SOAP APIs</span>
+                  <span class="tech-tag">Selenium</span>
+                  <span class="tech-tag">Python Automation</span>
+                  <span class="tech-tag">Postman</span>
+                  <span class="tech-tag">Docker</span>
+                  <span class="tech-tag">Core Banking</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 2: Critical TechWorks (BMW Group) -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Software Engineer</h3>
+                  <div class="timeline-company">
+                    <span>Critical TechWorks (BMW Group Joint Venture)</span>
+                    <span class="timeline-location">&bull; Portugal 🇵🇹</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">January 2024 &ndash; July 2024</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Engineered core features and maintenance for the MAPP System (Multiple Assembly Planning &amp; Process System), the mission-critical software managing BMW's physical vehicle production lines across European manufacturing plants.
+                </p>
+                <ul class="timeline-responsibilities">
+                  <li>Developed resilient Spring Boot REST microservices providing real-time references and data resources to assembly line operator systems.</li>
+                  <li>Built responsive desktop UI features using JavaFX with a custom MVVM pattern component library.</li>
+                  <li>Maintained Jenkins CI/CD automation pipelines for continuous deployment across containerized Docker environments.</li>
+                  <li>Provided Level-2 operational support, diagnosing edge-case performance bottlenecks in Oracle 11g and IBM MQ messaging.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tech-tag">Java 8 &amp; 11</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">JavaFX (MVVM)</span>
+                  <span class="tech-tag">Oracle 11g</span>
+                  <span class="tech-tag">IBM MQ</span>
+                  <span class="tech-tag">Docker</span>
+                  <span class="tech-tag">JasperReports</span>
+                  <span class="tech-tag">Jenkins CI/CD</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 3: Inetum (Cleva Life) -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Consultant Developer</h3>
+                  <div class="timeline-company">
+                    <span>Inetum</span>
+                    <span class="timeline-location">&bull; Porto, Portugal 🇵🇹</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">September 2021 &ndash; January 2024</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Specialized in enterprise modernization and insurance software engineering for Cleva Life (Version 7.0), servicing major European life and non-life insurance carriers.
+                </p>
+                <ul class="timeline-responsibilities">
+                  <li>Spearheaded modernization initiatives rewriting legacy AS-400 (IBM Framework) business code into modern, maintainable Java with comprehensive unit test coverage.</li>
+                  <li>Engineered Spring REST services with JPA/Hibernate entity mappings to feed data to modern customer-facing screens.</li>
+                  <li>Managed database persistence across Oracle 9i/10g and integrated continuous integration with Jenkins and Gerrit.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tech-tag">Java Core</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">JPA / Hibernate</span>
+                  <span class="tech-tag">Oracle 9i &amp; 10g</span>
+                  <span class="tech-tag">Jenkins</span>
+                  <span class="tech-tag">Gerrit</span>
+                  <span class="tech-tag">AS-400 Migration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 4: Wipro Limited (Mastercard) -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Software Engineer</h3>
+                  <div class="timeline-company">
+                    <span>Wipro Limited &bull; Mastercard Projects</span>
+                    <span class="timeline-location">&bull; Brazil / Global 🇧🇷</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">February 2018 &ndash; August 2021</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Delivered high-impact solutions across three high-profile global Mastercard engineering initiatives:
+                </p>
+                <div class="timeline-subprojects">
+                  <div>
+                    <span class="timeline-subproject-title">1. Mastercard Digital Identity (July 2020 &ndash; August 2021):</span>
+                    Developed Spring Boot microservices for the Enterprise Security Solutions (ESS) platform, unifying customer digital verification with high reliability and security.
+                  </div>
+                  <div>
+                    <span class="timeline-subproject-title">2. Cyber Security &amp; Intelligence - C&amp;I (August 2019 &ndash; July 2020):</span>
+                    Engineered fraud prevention services using Spring Batch and Kafka event streaming, orchestrating deployments on Pivotal Cloud Foundry (PCF) and Chef.
+                  </div>
+                  <div>
+                    <span class="timeline-subproject-title">3. Global Reports - CGR (February 2018 &ndash; July 2019):</span>
+                    Built complex data processing queries with Oracle 11g and Java Criteria for high-throughput global card reporting.
+                  </div>
+                </div>
+                <div class="timeline-tags">
+                  <span class="tech-tag">Java EE</span>
+                  <span class="tech-tag">Spring Boot</span>
+                  <span class="tech-tag">Spring Batch</span>
+                  <span class="tech-tag">Apache Kafka</span>
+                  <span class="tech-tag">Pivotal Cloud Foundry</span>
+                  <span class="tech-tag">Azure</span>
+                  <span class="tech-tag">Oracle 11g</span>
+                  <span class="tech-tag">Microservices</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 5: FH Consulting (SAP Hybris) -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Consultant Analyst</h3>
+                  <div class="timeline-company">
+                    <span>FH Consulting</span>
+                    <span class="timeline-location">&bull; Brazil 🇧🇷</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">March 2017 &ndash; February 2018</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Delivered enterprise e-commerce platform architecture and development on SAP Hybris for tier-1 national enterprises including Hering, Pearson, and Dpaschoal.
+                </p>
+                <ul class="timeline-responsibilities">
+                  <li>Conducted requirements gathering, architectural customization, and backend integration.</li>
+                  <li>Maintained and optimized high-transaction digital commerce backbones.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tech-tag">Java</span>
+                  <span class="tech-tag">SAP Hybris</span>
+                  <span class="tech-tag">Spring</span>
+                  <span class="tech-tag">E-Commerce Architecture</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 6: Bradesco (Scopus) -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Mobile Developer &bull; Android Native</h3>
+                  <div class="timeline-company">
+                    <span>Bradesco &ndash; Scopus</span>
+                    <span class="timeline-location">&bull; Brazil 🇧🇷</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">August 2016 &ndash; March 2017</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Engineered native Android banking and healthcare applications for one of Latin America's largest financial institutions.
+                </p>
+                <ul class="timeline-responsibilities">
+                  <li><strong>Bradesco Sa&uacute;de:</strong> Built the native Android application integrating Spring Boot REST microservices for health policyholders.</li>
+                  <li><strong>Clube de Vantagens:</strong> Built consumer discount platform with Glide image caching and secure JSON communications.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tech-tag">Android Native</span>
+                  <span class="tech-tag">Java &amp; Kotlin</span>
+                  <span class="tech-tag">REST APIs</span>
+                  <span class="tech-tag">Spring Boot Backend</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 7: HSBC Global Technology (GLT) -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Software Developer (Junior &rarr; Senior &amp; Global Lead)</h3>
+                  <div class="timeline-company">
+                    <span>HSBC &ndash; Global Technology (GLT)</span>
+                    <span class="timeline-location">&bull; Brazil / Global 🇧🇷</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">August 2008 &ndash; March 2016 (8 Years)</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Over eight formative years at HSBC's global technology hub, advanced through progressive software engineering and leadership responsibilities:
+                </p>
+                <ul class="timeline-responsibilities">
+                  <li><strong>Global Banking Marketing (GBM):</strong> Served as Global Developer Lead on the CBID (Correspondent Bank Identifier) cross-border payment routing system; project selected for CMMI Dev certification; engineered Spring/Hibernate APIs with Oracle 9i.</li>
+                  <li><strong>Global Business Solutions (GBS):</strong> Worked as Service Modeler utilizing IBM BPM Process Designer and SET (Service Engineering Tool) creating the foundational architectural blueprint for GBS.</li>
+                  <li><strong>HBBR Data Middleware Layer (DML):</strong> Built high-volume data middleware pipelines utilizing Spring Integration and Spring Batch for stock exchange and private banking operations.</li>
+                  <li><strong>GLT EMEA:</strong> Developed mobile management solutions (Bramble) for UK HSBC staffs, utilizing JSE Swing, Servlets, and JSP.</li>
+                </ul>
+                <div class="timeline-tags">
+                  <span class="tech-tag">Java SE &amp; EE</span>
+                  <span class="tech-tag">Spring Framework</span>
+                  <span class="tech-tag">Spring Batch</span>
+                  <span class="tech-tag">Hibernate / JPA</span>
+                  <span class="tech-tag">IBM BPM</span>
+                  <span class="tech-tag">Oracle 9i</span>
+                  <span class="tech-tag">CMMI Dev</span>
+                  <span class="tech-tag">Team Leadership</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Role 8: Early Career Foundation -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Software Developer &amp; Trainee Foundation</h3>
+                  <div class="timeline-company">
+                    <span>Infomatrix, DB Master Systems &amp; Roque e Correia</span>
+                    <span class="timeline-location">&bull; Brazil 🇧🇷</span>
+                  </div>
+                </div>
+                <span class="timeline-badge">2006 &ndash; 2008</span>
+              </div>
+              <div class="timeline-body">
+                <p>
+                  Early career foundation in industrial automation, SCADA systems (Elipse E3, VBScript), Oracle PL/SQL stored procedures, Crystal Reports generation, and database administration with SQL Server.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 6: EDUCATION & CERTIFICATIONS
+         Verified academic degrees, professional cloud certifications & languages
+         ========================================================================= -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Credentials</span>
+          <h2 class="section-title">Education &amp; <span class="gradient-text">Certifications</span></h2>
+          <p class="section-description">
+            Academic qualifications and industry credentials backed by international credential verification (World Education Services - WES).
+          </p>
+        </div>
+
+        <div class="edu-cert-grid">
+          <!-- Column 1: Certifications & Recognition -->
+          <div>
+            <h3 class="credentials-column-title">
+              <span>🏅 Industry Certifications</span>
+            </h3>
+
+            <!-- AWS Certified Solutions Architect -->
+            <div class="credential-card">
+              <div class="credential-icon-box">☁️</div>
+              <div class="credential-info">
+                <h4 class="credential-title">AWS Certified Solutions Architect &ndash; Associate</h4>
+                <div class="credential-issuer">Amazon Web Services (AWS)</div>
+                <div class="credential-meta">Validated skills in designing highly available, cost-effective, and scalable AWS cloud architectures.</div>
+                <div class="verified-badge">✓ Certified Solutions Architect</div>
+              </div>
+            </div>
+
+            <!-- Microsoft Certified Azure -->
+            <div class="credential-card">
+              <div class="credential-icon-box">🔷</div>
+              <div class="credential-info">
+                <h4 class="credential-title">Microsoft Certified: Azure Fundamentals (AZ-900)</h4>
+                <div class="credential-issuer">Microsoft</div>
+                <div class="credential-meta">Foundational knowledge of cloud services, Azure architecture, security, and governance.</div>
+                <div class="verified-badge">✓ Certified Azure Fundamentals</div>
+              </div>
+            </div>
+
+            <!-- WES Verification -->
+            <div class="credential-card">
+              <div class="credential-icon-box">🌐</div>
+              <div class="credential-info">
+                <h4 class="credential-title">Verified International Academic Qualifications</h4>
+                <div class="credential-issuer">World Education Services (WES)</div>
+                <div class="credential-meta">Official evaluation verifying higher education degrees for international professional equivalence.</div>
+                <div class="verified-badge">✓ WES Verified</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Academic Degrees & Languages -->
+          <div>
+            <h3 class="credentials-column-title">
+              <span>🎓 Academic Degrees</span>
+            </h3>
+
+            <!-- Post-Grad Specialization -->
+            <div class="credential-card">
+              <div class="credential-icon-box">🎓</div>
+              <div class="credential-info">
+                <h4 class="credential-title">Specialist in Java Technology &amp; Mobile Development</h4>
+                <div class="credential-issuer">UTFPR &ndash; Universidade Tecnol&oacute;gica Federal do Paran&aacute;</div>
+                <div class="credential-meta">Post-Graduate Specialization &bull; Completed 2013</div>
+              </div>
+            </div>
+
+            <!-- Bachelor's Degree -->
+            <div class="credential-card">
+              <div class="credential-icon-box">📜</div>
+              <div class="credential-info">
+                <h4 class="credential-title">Bachelor of Science in Systems Analysis</h4>
+                <div class="credential-issuer">PUC-PR &ndash; Pontif&iacute;cia Universidade Cat&oacute;lica do Paran&aacute;</div>
+                <div class="credential-meta">Undergraduate Degree &bull; Completed 2010</div>
+              </div>
+            </div>
+
+            <!-- Medical Radiology Degree -->
+            <div class="credential-card">
+              <div class="credential-icon-box">🔬</div>
+              <div class="credential-info">
+                <h4 class="credential-title">Degree in Medical Radiology Technology</h4>
+                <div class="credential-issuer">UTFPR &ndash; Universidade Tecnol&oacute;gica Federal do Paran&aacute;</div>
+                <div class="credential-meta">Completed 2008</div>
+              </div>
+            </div>
+
+            <!-- Spoken Languages Box -->
+            <div class="credential-card">
+              <div class="credential-icon-box">🗣️</div>
+              <div class="credential-info">
+                <h4 class="credential-title">Spoken Languages</h4>
+                <div class="credential-meta" style="margin-top: 6px;">
+                  <strong>English:</strong> Professional Working Proficiency (Australia &amp; Global Enterprise teams)<br>
+                  <strong>Portuguese:</strong> Native Proficiency<br>
+                  <strong>Spanish:</strong> Basic
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         SECTION 7: CONTACT
+         Direct contact cards, copy-to-clipboard, LinkedIn/GitHub links & message form
+         ========================================================================= -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's Discuss <span class="gradient-text">Your Next Initiative</span></h2>
+          <p class="section-description">
+            I am currently based in Adelaide, Australia, and open to Senior Java Backend Developer, Cloud Architect, and Technical Lead opportunities.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Channels -->
+          <div class="contact-info-cards">
+            <!-- Email -->
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Email Address</div>
+                <div class="contact-val">jeffermonteiro@gmail.com</div>
+              </div>
+              <button class="contact-copy-btn" data-copy="jeffermonteiro@gmail.com" data-label="Email" aria-label="Copy Email">
+                Copy
+              </button>
+            </div>
+
+            <!-- Mobile Phone -->
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.15 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Mobile Phone (Australia)</div>
+                <div class="contact-val">+61 478 610 401</div>
+              </div>
+              <button class="contact-copy-btn" data-copy="+61478610401" data-label="Phone number" aria-label="Copy Phone Number">
+                Copy
+              </button>
+            </div>
+
+            <!-- Location -->
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Location</div>
+                <div class="contact-val">Adelaide, South Australia 🇦🇺</div>
+              </div>
+            </div>
+
+            <!-- Professional Profiles -->
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.86 0 1.55-.7 1.55-1.55a1.56 1.56 0 0 0-1.55-1.56 1.56 1.56 0 0 0-1.56 1.56c0 .85.7 1.55 1.56 1.55m1.39 9.74v-8.37H5.07v8.37h2.78z"/></svg>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">Professional Network</div>
+                <div class="contact-val">
+                  <a href="https://www.linkedin.com/in/jefferson-monteiro-58503b61/" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); text-decoration: underline;">
+                    linkedin.com/in/jefferson-monteiro-58503b61
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- GitHub -->
+            <div class="contact-card">
+              <div class="contact-icon-box">
+                <svg viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+              </div>
+              <div class="contact-details">
+                <div class="contact-label">GitHub Profile</div>
+                <div class="contact-val">
+                  <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); text-decoration: underline;">
+                    github.com/JeffersonMonteiro
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 20px; color: var(--text-pure);">Send Direct Message</h3>
+            <form id="portfolioContactForm">
+              <div class="form-group">
+                <label for="contactName" class="form-label">Your Name</label>
+                <input type="text" id="contactName" class="form-input" placeholder="e.g. Sarah Jenkins" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail" class="form-label">Your Email</label>
+                <input type="email" id="contactEmail" class="form-input" placeholder="e.g. sarah@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject" class="form-label">Subject</label>
+                <input type="text" id="contactSubject" class="form-input" placeholder="e.g. Senior Java Backend Opportunity" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage" class="form-label">Message</label>
+                <textarea id="contactMessage" class="form-textarea" placeholder="Hello Jefferson, we would like to speak with you regarding..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send via Email Client</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span style="color: var(--accent-cyan); font-family: var(--font-mono);">&lt;JM/&gt;</span>
+          <span>Jefferson Monteiro</span>
+          <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 4px; font-weight: 400;">
+            Senior Java Backend Developer &bull; Adelaide, Australia
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+          <a href="https://www.linkedin.com/in/jefferson-monteiro-58503b61/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/JeffersonMonteiro" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Jefferson Monteiro. Built with HTML5, CSS3 &amp; vanilla JavaScript. Hosted on GitHub Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Floating Button -->
+  <button class="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
